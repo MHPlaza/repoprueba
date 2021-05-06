@@ -28,8 +28,8 @@ public class PrincipalCalculadora {
         int operacion =0;
         do {
             System.out.println(" Introduce Operacion a realizar");
-            System.out.println(" 1. suma \n 2. resta \\n 5. salir");  
-                    //"\n 3. multiplicacion \n 4. division \n 5. salir");
+            System.out.println(" 1. suma \n 2. resta \n 3. multiplicacion \n 4. division \n 5. salir");  
+                    
             // leo por teclado un entero como opción del menú
             
             operacion =sc.nextInt();
@@ -38,8 +38,8 @@ public class PrincipalCalculadora {
             switch ( operacion ){
             case 1: System.out.println( " la suma es "+ casio.suma() ); break;
             case 2: System.out.println( " la resta es "+ casio.resta() ); break;
-            //case 3: System.out.println(" la multipilcacion es "+ casio.multiplicacion()); break;
-            //case 4: System.out.println(" La division es " + casio.division()); break;
+            case 3: System.out.println(" la multipilcacion es "+ casio.multiplicacion()); break;
+            case 4: System.out.println(" La division es " + casio.division()); break;
             default: System.out.println(" Debes elegir una opción de 1 a 5");
             }
     
